@@ -1,0 +1,53 @@
+.timekeeping {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 2rem;
+}
+
+.timekeeping .title-timekeeping {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  border-bottom: 4px solid;
+  width: 15%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.title-time p {
+  margin: 0;
+}
+
+.timekeeping .table-time-keeping select {
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  top: 322px;
+  background: #fffefe;
+  border: 2px solid #e1dede;
+  border-radius: 15px;
+}
+
+.table {
+  border-spacing: 0 15px;
+}
+
+i {
+  font-size: 1rem !important;
+}
+
+.table tr {
+  border-radius: 20px;
+}
+
+tr td:nth-child(n + 13),
+tr th:nth-child(n + 13) {
+  border-radius: 0 0.625rem 0.625rem 0;
+}
+
+tr td:nth-child(1),
+tr th:nth-child(1) {
+  border-radius: 0.625rem 0 0 0.625rem;
+}

@@ -1,0 +1,23 @@
+.container {
+  width: 40%;
+  height: 550px;
+  border: 1px solid black;
+  margin-top: 2rem;
+  padding: 3rem;
+  font-family: "Poppins";
+
+}
+
+.container .title p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.container form {
+padding-bottom: 1rem;
+}
+
+
